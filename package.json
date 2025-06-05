@@ -1,0 +1,17 @@
+{
+  "name": "data-ingestion-api",
+  "version": "1.0.0",
+  "description": "A simple data ingestion API system with priority-based batching and rate-limited processing.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
